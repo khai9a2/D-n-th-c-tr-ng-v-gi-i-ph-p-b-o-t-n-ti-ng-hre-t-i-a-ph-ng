@@ -260,7 +260,7 @@ def main():
     st.markdown(f"""
         <div class="header-box">
             <div class="header-gradient">
-                <h1 class="title-text">TỪ ĐIỂN H'RE</h1>
+                <h1 class="title-text">TỪ ĐIỂN H'RÊ</h1>
                 <div class="subtitle-text">Tra cứu nhanh chóng - Đóng góp dễ dàng</div>
             </div>
         </div>
@@ -294,7 +294,7 @@ def main():
                         st.markdown(f"""
                             <div class="result-card">
                                 <div>
-                                    <div style="font-size:0.8rem; color:#888;">TIẾNG H'RE</div>
+                                    <div style="font-size:0.8rem; color:#888;">TIẾNG H'RÊ</div>
                                     <div class="hre-text">{row['hre']}</div>
                                 </div>
                                 <div style="font-size:1.5rem; color:#ddd;">➝</div>
