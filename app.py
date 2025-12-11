@@ -5,7 +5,7 @@ import base64
 
 # --- 1. CẤU HÌNH TRANG ---
 st.set_page_config(
-    page_title="Từ điển H'rê - Việt",
+    page_title="Từ điển Hrê - Việt",
     page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -260,7 +260,7 @@ def main():
     st.markdown(f"""
         <div class="header-box">
             <div class="header-gradient">
-                <h1 class="title-text">TỪ ĐIỂN H'RÊ</h1>
+                <h1 class="title-text">TỪ ĐIỂN HRÊ</h1>
                 <div class="subtitle-text">Tra cứu nhanh chóng - Đóng góp dễ dàng</div>
             </div>
         </div>
@@ -278,7 +278,7 @@ def main():
         st.write("")
         col_space1, col_center, col_space2 = st.columns([1, 4, 1])
         with col_center:
-            search = st.text_input("Tra từ:", placeholder="Nhập từ H'rê hoặc tiếng Việt...", label_visibility="collapsed")
+            search = st.text_input("Tra từ:", placeholder="Nhập từ Hrê hoặc tiếng Việt...", label_visibility="collapsed")
             
             if search:
                 s_lower = search.lower()
@@ -322,12 +322,12 @@ def main():
             st.markdown("""
                 <div style="text-align:center; margin-bottom:20px;">
                     <h3 style="color:#3f2b96;">Thêm từ mới</h3>
-                    <p style="color:#666;">Cảm ơn bạn đã chung tay bảo tồn ngôn ngữ H'rê</p>
+                    <p style="color:#666;">Cảm ơn bạn đã chung tay bảo tồn ngôn ngữ Hrê</p>
                 </div>
             """, unsafe_allow_html=True)
             
             with st.form("contribute"):
-                new_hre = st.text_input("Từ H'rê:")
+                new_hre = st.text_input("Từ Hrê:")
                 new_viet = st.text_input("Nghĩa Tiếng Việt:")
                 
                 # Nút bấm style Gradient
@@ -346,7 +346,7 @@ def main():
     # --- FOOTER (Được đặt trong div riêng biệt, padding an toàn) ---
     st.markdown("""
         <div class="footer-wrapper">
-            <div class="footer-title">Dự án Từ điển H'rê - Việt</div>
+            <div class="footer-title">Dự án Từ điển Hrê - Việt</div>
             <div class="footer-info">
                 Phát triển bởi <b>Huỳnh Thanh Khải</b><br>
                 Email: huynhthanhkhaibato2011@gmail.com 
